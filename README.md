@@ -27,3 +27,13 @@ Short leg (–) → Resistor → GND
 🔊 Buzzer
 Positive (+) → Pin 8
 Negative (–) → GND
+Working Principle
+The soil moisture sensor measures water content in soil.
+Arduino reads the analog value from the sensor.
+If the value is below the threshold → soil is moist → LED blinks.
+If the value is above the threshold → soil is dry → buzzer turns ON.
+📝 Short Notes
+Lower value = Wet soil
+Higher value = Dry soil
+Threshold (e.g., 500) must be calibrated
+Serial Monitor helps in finding correct values
